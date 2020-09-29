@@ -7,7 +7,7 @@ package TwentyQuestions;
 
 import java.util.Scanner;
 
-public class Game {
+public class QuestionsGame {
     public static class QuestionTree {
         static class Question {
             String text;                                         // the text to display for that question

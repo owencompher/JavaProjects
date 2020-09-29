@@ -6,12 +6,12 @@ package TwentyQuestions;
 
 public class AnimalQuestions {
     public static void main(String[] args) {
-        Game.QuestionTree animal = new Game.QuestionTree();
-        Game.QuestionTree.Question mammal = new Game.QuestionTree.Question("Is it a mammal?", false);
-        Game.QuestionTree.Question pet = animal.add(mammal, "yes", "Is it a pet?", false);
-        Game.QuestionTree.Question reptile = animal.add(mammal, "no", "Is it a reptile?", false);
-        Game.QuestionTree.Question bark = animal.add(pet, "yes", "Does it bark?", false);
-        Game.QuestionTree.Question legs = animal.add(reptile, "yes", "Does it have legs?", false);
+        QuestionsGame.QuestionTree animal = new QuestionsGame.QuestionTree();
+        QuestionsGame.QuestionTree.Question mammal = new QuestionsGame.QuestionTree.Question("Is it a mammal?", false);
+        QuestionsGame.QuestionTree.Question pet = animal.add(mammal, "yes", "Is it a pet?", false);
+        QuestionsGame.QuestionTree.Question reptile = animal.add(mammal, "no", "Is it a reptile?", false);
+        QuestionsGame.QuestionTree.Question bark = animal.add(pet, "yes", "Does it bark?", false);
+        QuestionsGame.QuestionTree.Question legs = animal.add(reptile, "yes", "Does it have legs?", false);
         animal.add(reptile,"no", "Its a bird!", true);
         animal.add(legs,"yes", "Its a turtle!", true);
         animal.add(legs, "no", "Its' a snake!", true);
@@ -19,7 +19,7 @@ public class AnimalQuestions {
         animal.add(bark, "yes", "Its a dog!", true);
         animal.add(bark, "no", "Its a cat!", true);
 
-        Game.play(mammal);
+        QuestionsGame.play(mammal);
     }
 }
 
