@@ -44,11 +44,4 @@ class SavingsAccount extends Account {
         return super.equals(other) &&
                this.interest == ((SavingsAccount) other).interest;
     }
-
-    public static void main(String[] args) {
-        SavingsAccount sacct1 = new SavingsAccount("Owen Compher", 69000, 15);
-        SavingsAccount sacct2 = new SavingsAccount("Owen Compher", 69000, 15);
-        Account acct5 = new Account("Owen Compher", 69000);
-        System.out.println(sacct1.equals(acct5));
-    }
 }
