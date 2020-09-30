@@ -1,6 +1,4 @@
-// Owen Compher
-// Savings Account project
-// 9-25-2020
+// Defines a Bank account class and a Savings Account subclass
 
 public class Account {
     private final String name;

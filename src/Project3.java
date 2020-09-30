@@ -1,6 +1,4 @@
-// Owen C
-// Project 3 (factor test)
-// 9-22-2020
+// Tests if 1, 2, 3, or 4 is a factor of a random number from 1 to 100
 
 import java.util.Scanner;
 

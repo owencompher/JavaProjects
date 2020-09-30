@@ -1,6 +1,3 @@
-// Owen Compher
-// Adventure project
-// 9-29-2020
 
 import java.util.Scanner;
 
@@ -14,7 +11,7 @@ public class Adventure {
         switch (command) {
             case "n":
                 System.out.println("You enter the forest and hear some rustling. \nThere may be tigers here" +
-                        " or maybe it's just monkeys.");
+                                   " or maybe it's just monkeys.");
                 break;
             case "s":
                 break;

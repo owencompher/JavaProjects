@@ -1,7 +1,7 @@
-// Owen Compher
-// part of my 20 Questions project
-// 9-24-2020
-// base on code from https://www.edureka.co/blog/java-binary-tree
+// Defines a 20 questions game
+// with a tree object and a method to play the game
+//
+// based on code from https://www.edureka.co/blog/java-binary-tree
 
 package TwentyQuestions;
 

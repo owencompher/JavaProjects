@@ -1,6 +1,4 @@
-// Owen Compher
-// part of my 20 Questions project
-// 9-24-2020
+// Creates and plays a 20 questions game
 
 package TwentyQuestions;
 

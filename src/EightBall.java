@@ -1,6 +1,4 @@
-// Owen Compher
-// Eight Ball project
-// 9-24-2020
+// Randomly prints 1 of 8 responses to an input
 
 import java.util.Scanner;
 
